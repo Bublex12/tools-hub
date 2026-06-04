@@ -20,6 +20,16 @@
       "repo": "tool-sql-in-generator",
       "url": "https://tool-sql-in-generator.vercel.app",
       "localUrl": "http://127.0.0.1:8767"
+    },
+    {
+      "id": "pg-explain-parser",
+      "name": "PostgreSQL EXPLAIN",
+      "description": "Разбор EXPLAIN (TEXT/JSON): дерево плана, cost, actual time, подсказки.",
+      "tags": ["sql", "postgresql"],
+      "status": "live",
+      "repo": "tool-pg-explain-parser",
+      "url": "https://tool-pg-explain-parser.vercel.app",
+      "localUrl": "http://127.0.0.1:8768"
     }
   ]
 }
