@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Tools — каталог</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Teko:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <p class="label">test tools hub</p>
+      <p class="body secondary site-header__tag">отдельный репозиторий · vercel</p>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <h1 id="hero-title" class="display">Инструменты</h1>
+        <p id="hero-lead" class="hero__lead">
+          Полезные утилиты в отдельных репозиториях. Каждый инструмент — свой
+          деплой на Vercel.
+        </p>
+      </section>
+
+      <section class="catalog" aria-labelledby="catalog-title">
+        <h2 id="catalog-title" class="h1">Каталог</h2>
+        <p id="catalog-status" class="body secondary" hidden>Загрузка…</p>
+        <div id="tools-grid" class="tools-grid"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p class="body secondary">
+        Хаб не хранит логику инструментов — только ссылки из
+        <code class="inline-code">tools.json</code>
+      </p>
+    </footer>
+
+    <script src="hub.js"></script>
+  </body>
+</html>

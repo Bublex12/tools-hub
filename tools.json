@@ -1,0 +1,15 @@
+{
+  "hubName": "Test Tools",
+  "tools": [
+    {
+      "id": "turnaround-splitter",
+      "name": "Turnaround Splitter",
+      "description": "Нарезка листа 2×3 на шесть PNG: front, side, back и три четверти.",
+      "tags": ["image", "3d"],
+      "status": "live",
+      "repo": "tool-turnaround-splitter",
+      "url": "https://tool-turnaround-splitter.vercel.app",
+      "localUrl": "http://127.0.0.1:8766"
+    }
+  ]
+}
