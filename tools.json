@@ -30,6 +30,16 @@
       "repo": "tool-pg-explain-parser",
       "url": "https://tool-pg-explain-parser.vercel.app",
       "localUrl": "http://127.0.0.1:8768"
+    },
+    {
+      "id": "json-decoder",
+      "name": "JSON Decoder",
+      "description": "Раскрытие вложенного JSON, pretty print, minify и сортировка ключей.",
+      "tags": ["json"],
+      "status": "live",
+      "repo": "tool-json-decoder",
+      "url": "https://tool-json-decoder.vercel.app",
+      "localUrl": "http://127.0.0.1:8769"
     }
   ]
 }
