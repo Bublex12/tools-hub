@@ -86,6 +86,32 @@ body {
   border-bottom: 1px solid var(--color-surface);
 }
 
+.site-header__brand {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.site-header__icon {
+  flex-shrink: 0;
+}
+
+.tool-card__id {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  min-width: 0;
+}
+
+.tool-card__id .label {
+  margin: 0;
+}
+
+.tool-card__icon {
+  flex-shrink: 0;
+  display: block;
+}
+
 .site-header__tag {
   margin: 0;
   font-size: 0.72rem;

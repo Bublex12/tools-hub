@@ -21,6 +21,13 @@ function statusLabel(status) {
   return map[status] ?? status;
 }
 
+function iconSrc(tool) {
+  if (tool.icon) {
+    return `icons/${tool.id}.svg`;
+  }
+  return null;
+}
+
 function createToolCard(tool) {
   const url = resolveToolUrl(tool);
   const isDraft = tool.status !== "live";
@@ -31,9 +38,17 @@ function createToolCard(tool) {
     .map((t) => `<span class="tool-card__tag">${t}</span>`)
     .join("");
 
+  const icon = iconSrc(tool);
+  const iconHtml = icon
+    ? `<img class="tool-card__icon" src="${icon}" width="28" height="28" alt="" />`
+    : "";
+
   card.innerHTML = `
     <div class="tool-card__head">
-      <p class="label">${tool.id}</p>
+      <div class="tool-card__id">
+        ${iconHtml}
+        <p class="label">${tool.id}</p>
+      </div>
       <span class="tool-card__status tool-card__status--${tool.status}">${statusLabel(tool.status)}</span>
     </div>
     <h3 class="tool-card__title">${tool.name}</h3>
