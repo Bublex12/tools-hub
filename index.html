@@ -30,7 +30,20 @@
       </section>
 
       <section class="catalog" aria-labelledby="catalog-title">
-        <h2 id="catalog-title" class="h1">Каталог</h2>
+        <div class="catalog__head">
+          <h2 id="catalog-title" class="h1">Каталог</h2>
+          <label class="search-field">
+            <span class="label">поиск</span>
+            <input
+              id="tool-search"
+              class="search-field__input"
+              type="search"
+              placeholder="SQL, JSON, EXPLAIN…"
+              autocomplete="off"
+              spellcheck="false"
+            />
+          </label>
+        </div>
         <p id="catalog-status" class="body secondary" hidden>Загрузка…</p>
         <div id="tools-grid" class="tools-grid"></div>
       </section>
