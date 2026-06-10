@@ -96,17 +96,6 @@ body {
   flex-shrink: 0;
 }
 
-.tool-card__id {
-  display: flex;
-  align-items: center;
-  gap: var(--space-sm);
-  min-width: 0;
-}
-
-.tool-card__id .label {
-  margin: 0;
-}
-
 .tool-card__icon {
   flex-shrink: 0;
   display: block;
@@ -162,7 +151,6 @@ main {
 .tool-card__head {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: var(--space-sm);
 }
 
@@ -196,30 +184,10 @@ main {
   padding: 2px 6px;
 }
 
-.tool-card__status {
-  font-family: var(--font-label);
-  font-size: 0.65rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-
-.tool-card__status--live {
-  color: var(--color-tertiary);
-}
-
-.tool-card__status--draft,
-.tool-card__status--soon {
-  color: var(--color-secondary);
-}
-
 .tool-card__cta {
   margin-top: auto;
   align-self: flex-start;
   text-decoration: none;
-}
-
-.tool-card__soon {
-  margin-top: auto;
 }
 
 .button-primary {
