@@ -28,6 +28,13 @@
       "description": "Раскрытие вложенного JSON, pretty print, minify и сортировка ключей.",
       "tags": ["json"],
       "url": "https://tool-json-decoder.vercel.app"
+    },
+    {
+      "id": "ip-lookup",
+      "name": "IP Geolocation",
+      "description": "Список IP → страна, город, регион и провайдер. Загрузка из файла.",
+      "tags": ["network", "geo"],
+      "url": "https://tool-ip-lookup.vercel.app"
     }
   ]
 }
