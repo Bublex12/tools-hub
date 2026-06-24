@@ -35,6 +35,13 @@
       "description": "Список IP → страна, город, регион и провайдер. Загрузка из файла.",
       "tags": ["network", "geo"],
       "url": "https://tool-ip-lookup.vercel.app"
+    },
+    {
+      "id": "bytes-decoder",
+      "name": "Bytes Decoder",
+      "description": "Байты (строка, \\u-эскейпы, hex) → число с scale. Big-endian, как Avro decimal.",
+      "tags": ["binary", "debug"],
+      "url": "https://tool-bytes-decoder.vercel.app"
     }
   ]
 }
